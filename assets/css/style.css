@@ -1,0 +1,93 @@
+/** style css header et titres**/
+header,h1,h2{
+    background-color: #0F4C81;
+    text-align:center;
+        font-family: Gabriola;
+        color: #FFF;
+        
+}
+
+/** style css navbar**/
+.ul1{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+   
+}
+/**image de fond présentation**/
+.section1{
+    background-image: url("../image/accueil.jpg");
+    background-size: cover;
+
+}
+/**style css texte présentation**/
+p{
+    text-align: right;
+}
+/**photo de profil **/
+.img1{
+    width: 40%; 
+}
+.section3{
+    display:flex;
+    justify-content: space-around;
+}
+  /**style css picto compétences**/
+.imgCss{
+    width: 100px;
+    height: 100px;
+}
+.imgHtml{
+    width: 100px;
+    height: 100px;
+}
+.imgAi{
+    width: 100px;
+    height: 100px;
+}
+.imgPs{
+    width: 100px;
+    height: 100px;
+}
+.imgPp{
+    width: 100px;
+    height: 100px;
+}
+
+/** style css formations/diplômes**/
+.ul2{
+    list-style-type: none;
+    font-family: Calibri;
+    text-align: center;
+}
+/**style css footer**/
+footer{
+    background-color: #0F4C81;
+    display: block;
+    height: 150px;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 30px;
+}
+/** style picto de mon footer**/
+.imgGit{
+  width: 100px;
+  height: 100px;
+}
+.imgLink{
+    width: 100px;
+    height: 100px;
+}
+.imgCV{
+    width: 100px;
+    height: 100px;
+}
+.imgPhone{
+    width:100px;
+    height: 100px;
+}
+.imgGmail{
+    width: 100px;
+    height: 100px;
+}
