@@ -12,9 +12,23 @@ header,h1,h2{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    font-size: 25px;
+    font-size: 25px;  
+}
+.li1{
+    background-color: #FF5353;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
    
 }
+.li1 a{
+    text-decoration: none;
+    color: #FFF;
+}
+link{
+    color: #FFF
+}
+    
 /**image de fond présentation**/
 .section1{
     background-image: url("../image/accueil.jpg");
