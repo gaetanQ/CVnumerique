@@ -35,13 +35,31 @@ link{
     background-size: cover;
 
 }
+
+.section1 div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
 /**style css texte présentation**/
 p{
-    text-align: right;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 30px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.2)
+    
+    
 }
+
+
 /**photo de profil **/
 .img1{
-    width: 40%; 
+    width: 40%;
+    height: auto;
+     
+      
 }
 .section3{
     display:flex;
@@ -68,10 +86,11 @@ p{
     width: 100px;
     height: 100px;
 }
-/*Barre de progrssion*/
+/*Barre de progression*/
 progress{
     width: 80px;
-} 
+   }
+
 /** style css formations/diplômes**/
 .ul2{
     list-style-type: none;
