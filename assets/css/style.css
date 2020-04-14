@@ -28,7 +28,9 @@ header,h1,h2{
 link{
     color: #FFF
 }
-    
+    #navbarResponsive{
+        display:none;
+    }
 /**image de fond présentation**/
 .section1{
     background-image: url("../image/accueil.jpg");
@@ -129,8 +131,3 @@ footer{
 }
 /*media queries*/
 
-@media screen and (max-width:992px) {
-
-    
-    }
-  

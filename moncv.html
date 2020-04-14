@@ -10,6 +10,9 @@
         <meta name="description" content="Code html et css de mon CV numérique">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+        <script src="https://kit.fontawesome.com/fe06ecf098.js" crossorigin="anonymous"></script>
+
     </head>
     <body>
         <header> <!-- balise header en tête de ma page html qui comprend le titre et la barre de navigation-->
@@ -17,7 +20,7 @@
                  <h1>Gaëtan Querolle - Web Designer Junior</h1><!-- titre de premier niveau, titre principal-->
            
 
-            <nav> <!--balise de navigation-->
+            <nav id="navbar"> <!--balise de navigation-->
                 <ul class="ul1">
                     <li class="li1"><a href="#home">Présentation</a></li>
                     <li class="li1"><a href="#training">Formations</a></li>
@@ -26,13 +29,16 @@
                     <li class="li1"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+                   <div id="navbarResponsive">
+                        <i class="fas fa-bars fa-2x"></i>
+                    </div>
         </header>
 
         <section class="section1"> <!-- image de fond-->
             
             
             <div>
-                <img alt="personalPic" src="assets/image/PP.png" class="img1"/> <!--Photo CV -->
+                <img id=personnalP alt="personalPic" src="assets/image/PP.png" class="img1"/> <!--Photo CV -->
             
 
                                       <!--Texte de présentation-->

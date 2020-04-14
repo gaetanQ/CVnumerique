@@ -1,0 +1,27 @@
+@media screen and (max-width:700px) {
+    
+    #navbar ul{
+        flex-direction: column;
+       
+    }
+    #personnalP{
+        display: none;
+    }
+    #navbarResponsive{
+    display: none;
+    }
+}
+    @media screen and (max-width:480px) {
+        #navbar ul{
+            display: none;
+        }
+    }
+    #navbarResponsive{
+        display: flex;
+        margin: 2%;
+      }
+    }
+ 
+
+
+
